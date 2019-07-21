@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Pomodoro Clock</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/4c8bb9253e.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+            </head>
+	<body>
+<header>  
+</header>
+
+  
+        <div class="area">
+        <!--todolist FORM-->
+        <form class="itemForm">
+            <h3>今天想做什麼事？</h3>
+            <div class="feedback"></div>
+            <div class="inputGroup">
+                <input type="text" class="itemInput" placeholder="想做什麼就打出來吧！">
+                <div class="inputGroupAppend">
+                    <button class="addBtn" type="submit">新增事項</button>
+                </div>
+                <div><button class="clearBtn">清除全部</button></div>
+            </div>
+        </form>
+    
+        <!--item container-->
+        <div class="itemContainer">
+            <div class="itemList"></div>
+            <!--single item-->
+            <!--
+            <div class="item">
+                <h5 class="itemName">laundry</h5>
+                <div class="itemIcon">
+                    <a href="#" class="completeItem icon">
+                            <i class="far fa-check-circle"></i>
+                        </a>
+                    <a href="#" class="editItem icon">
+                            <i class="fas fa-edit"></i>
+                    </a>
+                    <a href="#" class="deleteItem icon">
+                            <i class="far fa-times-circle"></i>
+                    </a>
+                </div>
+            </div>
+            -->
+            <!--single item ends-->
+            
+        </div>
+    
+        <!--TODOLIST ENDS
+        -->
+
+    <section class="pomo">
+        <h1 id="text"></h1>
+        <div class="round">
+            <h1 id="countdown">25:00</h1>
+        </div>
+        <div id="clock"></div>
+        <button class="start pomoBtn">計時</button>
+        <button class="break pomoBtn">清空</button>
+        <div class="tomato"></div>
+    </section>
+
+  
+    
+</div>
+    <script type="text/javascript" src="timer2.js">
+	</script>
+  
+        
+</body>
+</html>
